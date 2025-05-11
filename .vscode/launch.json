@@ -1,0 +1,28 @@
+{
+    "version": "2.0.0",
+    "compounds": [
+        {
+            "name": "RunFullStack",
+            "configurations": ["Runbackend"],
+            "preLaunchTask": "RunFrontend",
+        }
+    ],
+    "configurations": [
+        {
+            "name": "Runbackend",
+            "type": "coreclr",
+            "request": "launch",
+            "cwd": "${workspaceFolder}/backendApi",
+            "program": "${workspaceFolder}/backendApi/bin/Debug/net6.0/backendApi.dll",
+            "stopAtEntry": false,
+            "serverReadyAction": {
+                "action": "openExternally",
+                "pattern": "\\bNow listening on:\\s+(https?://\\S+)",
+            },
+            "env": {
+                "ASPNETCORE_ENVIRONMENT": "Development"
+            }
+        }
+    ]
+
+}

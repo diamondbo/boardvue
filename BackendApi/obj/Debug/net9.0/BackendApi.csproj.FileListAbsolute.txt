@@ -164,5 +164,4 @@ C:\Users\diamo\OneDrive\Documents\GitHub\MyWebapp\BackendApi\obj\Debug\net9.0\re
 C:\Users\diamo\OneDrive\Documents\GitHub\MyWebapp\BackendApi\bin\Debug\net9.0\Swashbuckle.AspNetCore.Swagger.dll
 C:\Users\diamo\OneDrive\Documents\GitHub\MyWebapp\BackendApi\bin\Debug\net9.0\Swashbuckle.AspNetCore.SwaggerGen.dll
 C:\Users\diamo\OneDrive\Documents\GitHub\MyWebapp\BackendApi\bin\Debug\net9.0\Swashbuckle.AspNetCore.SwaggerUI.dll
-C:\Users\diamo\OneDrive\Documents\GitHub\MyWebapp\backendapi\bin\Debug\net9.0\System.Formats.Asn1.dll
-C:\Users\diamo\OneDrive\Documents\GitHub\MyWebapp\backendapi\bin\Debug\net9.0\System.Text.Json.dll
+C:\Users\diamo\OneDrive\Documents\GitHub\MyWebapp\backendapi\obj\Debug\net9.0\BackendApi.sourcelink.json

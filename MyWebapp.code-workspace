@@ -1,0 +1,30 @@
+{
+   "compounds": [
+	{
+		"name": "RunFullStackapp",
+		"configurations": [ "Runbackend", "RunFrontend"]
+	}
+   ],
+   "configurations": [
+	{
+		"name": "Runbackend",
+		"type": "dotnet-terminal",
+		"request": "launch",
+		"command": "dotnet watch run",
+		"cwd": "${workspaceFolder}/backendApi"
+	},
+	{
+		"name": "RunFrontend",
+		"type": "node-terminal",
+		"request": "launch",
+		"command": "npm run dev",
+		"cwd": "${workspaceFolder}/board-frontend"
+
+	}
+],
+"folders": [
+	{
+		"path": "."
+	}
+],
+}

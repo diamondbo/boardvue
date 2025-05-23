@@ -151,8 +151,7 @@ export default {
   margin: 20px auto;
 
   background-image:
-    repeating-linear-gradient(45deg, #b5e2dd 0, #00796b 1px, transparent 1px, transparent 10px),
-    repeating-linear-gradient(-45deg, #00796b 0, #00796b 1px, transparent 1px, transparent 10px);
+    repeating-linear-gradient(45deg, #b5e2dd 0, #00796b 1px, transparent 1px, transparent 10px);
 } 
 .btn-and-form-wrapper {
   position: relative;
